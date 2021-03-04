@@ -19,7 +19,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module fullAdder(
     input A,
     input B,
@@ -27,7 +26,6 @@ module fullAdder(
     output Sum,
     output Carry
     );
-    
     assign Sum = A^B^C;
     assign Carry = ((A^B)&C) | (A&B);
 endmodule
