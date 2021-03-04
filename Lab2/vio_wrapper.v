@@ -19,14 +19,12 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
 module vio_wrapper(
     input clk
     );
-    
+   
     wire [2:0] A,B;
     wire [3:0] Sum;
-    
     
     vio_0 vio1 (
   .clk(clk),                // input wire clk
